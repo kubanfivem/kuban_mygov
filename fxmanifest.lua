@@ -14,10 +14,6 @@ game 'gta5'
 shared_scripts { '@ox_lib/init.lua' }
 author 'Kuban' 
 lua54 'yes'
-server_script {
-  'server/*.lua',
-  '@oxmysql/lib/MySQL.lua'
-  }
 shared_script 'config.lua'
 client_script 'client.lua'
-server_script 'server.lua'
+server_script { 'server.lua', '@oxmysql/lib/MySQL.lua' }

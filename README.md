@@ -1,7 +1,7 @@
 Resource: Kuban Billing
 Framework: QBCore
 Dependencies: ox_lib
-
+https://youtu.be/aj4jyk8sMQ0
 Features:
 + Create/View Bills Menu
 + /billing Command & F7 Key bind
